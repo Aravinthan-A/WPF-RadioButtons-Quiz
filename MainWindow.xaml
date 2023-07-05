@@ -1,0 +1,116 @@
+﻿<Window x:Class="RadioButton.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:RadioButton"
+        mc:Ignorable="d"
+        Background="SkyBlue"
+        Title="MainWindow" Height="600" Width="800">
+    <StackPanel>
+        <Label Content="                                           CHOOSE THE BEST ANSWER" Margin="0,30,0,0" FontWeight="Bold" FontSize="20"></Label>
+        <Label Content="  1. How many times had India won Hockey Gold Medal in the Olympics?" FontSize="16"></Label>
+        <StackPanel Orientation="Horizontal" Margin="50,0,0,0">
+            <RadioButton Content="7 Times" x:Name="rbwrong0" Tag="0" Checked="rbwrong7_Checked" ></RadioButton>
+            <RadioButton Content="8 Times" Tag="1" x:Name="rbcorrect" Checked="Rbcorrect_Checked" ></RadioButton>
+            <RadioButton Content="6 Times" Tag="0" x:Name="rbwrong2" Checked="rbwrong8_Checked" ></RadioButton>
+            <RadioButton Content="2 Times" Tag="0" x:Name="rbwrong3" Checked="rbwrong3_Checked"></RadioButton>
+            <Label Margin="250,0,0,0" x:Name="lblfirst" FontWeight="Bold"></Label>
+        </StackPanel>
+        <StackPanel>
+            <Label Content="  2. The first Indian woman Gymnast to take part in Olympic Games -" FontSize="16"></Label>
+        </StackPanel>
+        <StackPanel Orientation="Horizontal" Margin="50,0,0,0">
+            <RadioButton x:Name="rbwrong5" Content="Kalpana Chawla" Tag="0" Checked="rbwrong5_Checked"></RadioButton>
+            <RadioButton x:Name="rbwrong1" Content=" Anju Bobby George" Tag="0" Checked="rbwrong1_Checked" ></RadioButton>
+            <RadioButton x:Name="rbwrong4" Content=" P. T. Usha" Tag="0" Checked="rbwrong4_Checked"></RadioButton>
+            <RadioButton x:Name="rbanswer1" Content=" Deepa Karmakar" Tag="1" Checked="rbanswer1_Checked"></RadioButton>
+            <Label Margin="50,0,0,0" x:Name="lblsecond" FontWeight="Bold"></Label>
+        </StackPanel>
+        <StackPanel>
+            <Label Content="  3. Distance of Marathon race is -" FontSize="14"></Label>
+        </StackPanel>
+        <StackPanel Orientation="Horizontal" Margin="50,0,0,0">
+            <RadioButton Content="43.195 km" x:Name="rbwrong10" Checked="rbwrong10_Checked"></RadioButton>
+            <RadioButton Content="42.195 km" Tag="1" x:Name="rbcorrect3" Checked="rbcorrect3_Checked"></RadioButton>
+            <RadioButton Content=" 41.185 km" x:Name="rbwrong11" Checked="rbwrong11_Checked"></RadioButton>
+            <RadioButton Content="40.165 km" x:Name="rbwrong12" Checked="rbwrong12_Checked"></RadioButton>
+            <Label Margin="150,0,0,0" x:Name="lblthird" FontWeight="Bold"></Label>
+        </StackPanel>
+        <StackPanel>
+            <Label Content="  4. In which country did the game of Volleyball originate?" FontSize="14"></Label>
+        </StackPanel>
+        <StackPanel Orientation="Horizontal" Margin="50,0,0,0">
+            <RadioButton Content="U.S.A" Tag="1" x:Name="rbcorrect4" Checked="rbcorrect4_Checked"></RadioButton>
+            <RadioButton Content="JAPAN" x:Name="rbwrong13" Checked="rbwrong13_Checked"></RadioButton>
+            <RadioButton Content="AUSTRALIA" x:Name="rbwrong14" Checked="rbwrong14_Checked"></RadioButton>
+            <RadioButton Content="GERMANY" x:Name="rbwrong15" Checked="rbwrong15_Checked"></RadioButton>
+            <Label Margin="200,0,0,0" x:Name="lblfourth" FontWeight="Bold" ></Label>
+        </StackPanel>
+        <StackPanel>
+            <Label Content="  5. The fundamental skill Instep Kick is associated with -" FontSize="14"></Label>
+        </StackPanel>
+        <StackPanel Orientation="Horizontal" Margin="50,0,0,0">
+            <RadioButton Content="Swimming" x:Name="rbwrong16" Tag="0" Checked="rbwrong16_Checked"></RadioButton>
+            <RadioButton Content="Football" x:Name="rbcorrect5" Tag="1" Checked="rbcorrect5_Checked"></RadioButton>
+            <RadioButton Content="Taekwondo" x:Name="rbwrong17" Tag="0" Checked="rbwrong17_Checked"></RadioButton>
+            <RadioButton Content=" Kabaddi" x:Name="rbwrong18" Tag="0" Checked="rbwrong18_Checked"></RadioButton>
+            <Label Margin="200,0,0,0" x:Name="lblfive" FontWeight="Bold"></Label>
+        </StackPanel>
+        <StackPanel>
+            <Label Content="  6. In which country the first football World Cup was played?" FontSize="14"></Label>
+        </StackPanel>
+        <StackPanel Orientation="Horizontal" Margin="50,0,0,0">
+            <RadioButton Content="America" x:Name="rbwrong19" Checked="rbwrong19_Checked"></RadioButton>
+                <RadioButton Content="Brazil" x:Name="rbwrong20" Checked="rbwrong20_Checked"></RadioButton>
+            <RadioButton Content="China" x:Name="rbwrong21" Checked="rbwrong21_Checked"></RadioButton>
+            <RadioButton Content=" Uruguay" Tag="1" x:Name="rbanswer5" Checked="rbanswer5_Checked"></RadioButton>
+            <Label Margin="200,0,0,0" x:Name="lblsix" FontWeight="Bold"></Label>
+        </StackPanel>
+        <StackPanel>
+            <Label Content="  7. In which year did India organise Asian Games in the Second time?" FontSize="14"></Label>
+        </StackPanel>
+        <StackPanel Orientation="Horizontal" Margin="50,0,0,0">
+            <RadioButton Content="1951" x:Name="rbwrong22" Tag="0" Checked="rbwrong22_Checked"></RadioButton>
+            <RadioButton Content="2010" x:Name="rbwrong23" Tag="0" Checked="rbwrong23_Checked"></RadioButton>
+            <RadioButton Content="1984" x:Name="rbwrong24" Tag="0" Checked="rbwrong24_Checked"></RadioButton>
+            <RadioButton Content="1982" Tag="1" x:Name="rbanswer6" Checked="rbanswer6_Checked"></RadioButton>
+            <Label Margin="300,0,0,0" x:Name="lblseven" FontWeight="Bold"></Label>
+        </StackPanel>
+        <StackPanel>
+            <Label Content="  8. Release and reverse techniques are related to " FontSize="14"></Label>
+        </StackPanel>
+        <StackPanel Orientation="Horizontal" Margin="0,0,0,0">
+            <RadioButton Content="Swimming" Tag="0" x:Name="rbwrong25" Checked="rbwrong25_Checked"></RadioButton>
+            <RadioButton Content="Shot-put" Tag="0" x:Name="rbwrong26" Checked="rbwrong26_Checked"></RadioButton>
+            <RadioButton Content="Baseball" Tag="0" x:Name="rbwrong27" Checked="rbwrong27_Checked"></RadioButton>
+            <RadioButton Content=" Javelin" Tag="1" x:Name="rbanswer7" Checked="rbanswer7_Checked"></RadioButton>
+            <Label Margin="150,0,0,0" x:Name="lbleight" FontWeight="Bold"></Label>
+        </StackPanel>
+        <StackPanel>
+            <Label Content="  9. Who among the following sports personalities was the first to receive Major Dhyan Chand Khel Ratna Award?" FontSize="14"></Label>
+        </StackPanel>
+        <StackPanel Orientation="Horizontal" Margin="50,0,0,0">
+            <RadioButton Content="Viswanathan Anand" Tag="1" x:Name="rbanswer8" Checked="rbanswer8_Checked"></RadioButton>
+            <RadioButton Content="Sachin Tendulkar" Tag="0" x:Name="rbwrong28" Checked="rbwrong28_Checked"></RadioButton>
+            <RadioButton Content="Sunil Gavaskar" Tag="0" x:Name="rbwrong29" Checked="rbwrong29_Checked" ></RadioButton>
+            <RadioButton Content="Geet Sethi" Tag="0" x:Name="rbwrong30" Checked="rbwrong30_Checked"></RadioButton>
+            <Label Margin="100,0,0,0" x:Name="lblnine" FontWeight="Bold"></Label>
+        </StackPanel>
+        <StackPanel>
+            <Label Content="  10. In cricket which of the following fielding positions is behind the batsman?" FontSize="14"></Label>
+        </StackPanel>
+        <StackPanel Orientation="Horizontal" Margin="50,0,0,0">
+            <RadioButton Content="Mid-wicket" Tag="0" x:Name="rbwrong31" Checked="rbwrong31_Checked"></RadioButton>
+            <RadioButton Content="First slip" Tag="1" x:Name="rbanswer9" Checked="rbanswer9_Checked"></RadioButton>
+            <RadioButton Content="Cover" Tag="0" x:Name="rbwrong32" Checked="rbwrong32_Checked"></RadioButton>
+            <RadioButton Content="Midoff" Tag="0" x:Name="rbwrong33" Checked="rbwrong33_Checked"></RadioButton>
+            <Label Margin="200,0,0,0" x:Name="lblten" FontWeight="Bold"></Label>
+        </StackPanel>
+        <StackPanel>
+            <Button Width="200" Content="SUBMIT" Margin="0,20,0,0" x:Name="btnsubmit" Background="Red" Height="20" Click="Button_Click"></Button>
+        </StackPanel>
+    </StackPanel>
+
+    
+</Window>
